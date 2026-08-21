@@ -1,0 +1,35 @@
+{
+  "name": "medical-platform",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.6",
+    "@types/node": "^20",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.4.22",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.4",
+    "postcss": "^8.5.6",
+    "tailwindcss": "3.4",
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@react-google-maps/api": "^2.20.7",
+    "formik": "^2.4.9",
+    "js-cookie": "^3.0.5",
+    "lucide-react": "^0.555.0",
+    "next": "^14.2.33",
+    "next-themes": "^0.4.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tesseract.js": "^6.0.1",
+    "yup": "^1.7.1"
+  }
+}
