@@ -50,8 +50,10 @@ export default function PrescriptionOCRPage() {
     setResult(null)
 
     try {
-      const base64 = await fileToBase64(file)
-      const res = await ocrApi.scanPrescription(base64)
+      const formData = new FormData()
+      formData.append("file", file)
+
+      const res = await ocrApi.scanPrescription(formData)
 
       if (!res.success) {
         showToast(res.error, 'error')
